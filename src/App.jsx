@@ -27,7 +27,7 @@ function App() {
   return (
     debates && (
       <div className="flex justify-center items-center h-screen">
-        <Bellow data={debates} filterKeyword="" isOpen />
+        <Bellow data={debates} filterKeyword="" isOpen underline={false} />
       </div>
     )
   );
